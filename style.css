@@ -1,0 +1,154 @@
+:root {
+    --cor-1: #000;
+    --cor-2: #610094;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-1);
+    color: var(--cor-2);
+}
+
+header {
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-family: "Bungee Hairline", sans-serif;
+    color: var(--cor-2);
+
+}
+
+.cabecalho {
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+
+.logo__alura {
+    width: 80px;
+}
+
+.area__escrita {
+    display: flex;
+    justify-content: center;
+}
+
+.area__texto__input {
+    width: 80%;
+    height: 45vh;
+    resize: none;
+    padding: 0.625rem;
+    border: none;
+    outline: none;
+    background: #080808;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--cor-2);
+}
+
+.area__mensagem__output {
+    width: 120%;
+    height: 75%;
+    resize: none;
+    display: none;
+    padding: 0.625rem;
+    border: none;
+    outline: none;
+    background: #080808;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--cor-2);
+}
+
+.area__mensagem__img {
+    width: 80px;
+}
+
+.area__mensagem__inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 120%;
+    height: 75%;
+
+    flex-direction: column;
+    background-color: #080808;
+}
+
+.area__texto__botoes {
+    display: flex;
+    gap: 20px;
+}
+
+
+.area__texto_info {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.area__texto_info img {
+    width: 20px;
+}
+
+.area__texto_info span {
+    font-size: 20px;
+}
+
+.area__texto__botoes button,
+.area__mensagem__botao__copiar {
+    padding: 20px;
+    margin: 30px 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+    font-family: "Bungee Hairline", sans-serif;
+    font-size: 16px;
+    color: var(--cor-2);
+    font-weight: 700;
+}
+
+.area__texto__botoes :hover {
+    background-color: #610094;
+    cursor: pointer;
+    color: white;
+}
+
+.area__mensagem__botao :hover {
+    background-color: #610094;
+    cursor: pointer;
+    color: white;
+}
+
+.area__mensagem__titulo,
+.area__mensagem__titulo__2 {
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.rodape {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 52px;
+    border-top: 3px solid #610094;
+}
+
+.rodape .rodape__texto {
+    margin-top: 20px;
+}
+
+.rodape img {
+    width: 35px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
